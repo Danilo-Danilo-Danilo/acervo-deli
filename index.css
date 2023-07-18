@@ -1,0 +1,138 @@
+a{
+    text-decoration: none;
+    color: black;
+}
+.navbar{
+    border: 1px;
+    border-color: black;
+    border-style: solid;
+    height: 148px;
+    margin-bottom: 30px;
+    display:flex;
+    align-items: center;
+    padding-left: 35px;
+    justify-content: center;
+    
+}
+.img-container{
+    flex:1 1 auto;
+    display:flex;
+    border: 1px;
+    border-color: black;
+    border-style: solid;
+    max-width: max-content;
+    justify-content: flex-start;
+}
+.nav-container{
+    flex:1 1 auto;
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px;
+    border-color: black;
+    border-style: solid;
+    max-height:98px;
+    height: 100%;
+    max-width: 30%;
+    margin-left: 20%;
+    margin-right: 20%;
+    font-size:24px;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.social-container{
+    flex:1 1 auto;
+    display:flex;
+    
+
+}
+.row{
+    border: 1px;
+    border-color: black;
+    border-style: solid;
+    height: auto;
+    max-height: max-content;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 5px;
+}
+
+.block{
+    height: 220px;
+    width: 160px;
+    flex: 0 0 auto;
+    border: 1px;
+    border-color: black;
+    border-style: solid;
+    border-radius: 5px;
+    background-color: grey;
+    padding: 5px;
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+.name{
+    border: 1px;
+    border-color: black;
+    border-style: solid;
+    background-color: gray;
+    width: 176px;
+    font-size: 18px;
+    text-align: center;
+    flex: 0 0 auto;
+}
+
+.infobox{
+    /*border: 1px;
+    border-color: black;
+    border-style: solid;
+    */
+    height: auto;
+    width: 150px;
+    flex: 0 0 auto;
+    display:flex;
+    margin-top: 8px;
+    justify-content: space-between;
+
+}
+.info{
+    flex: 0 0 auto;
+    align-self:center;
+}
+.propertie{
+    flex: 0 0 auto;
+    display: flex;
+}
+img.box{
+    height: 155px;
+    width: auto;
+    flex: 0 0 auto;
+    /*border: 1px;
+    border-color: black;
+    border-style: solid;
+    */
+}
+
+img.icon{
+    max-height: 20px;
+    width: auto;
+    flex: 0 0 auto;
+    display:inline-block;
+}
+
+img.logo{
+    flex:0 0 auto;
+    max-height: 97px;
+    max-width: 100%;
+    width: auto;
+}
+img.small-icon{
+    flex:0 0 auto;
+    max-height: 20px;
+    max-width: 100%;
+    width: auto;
+}
